@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">TV Series App</h1>
 
-## Getting Started
+<!-- TABLE OF CONTENTS -->
 
-First, run the development server:
+## Table of Contents
+
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [How to use](#how-to-use)
+
+### Overview
+
+![screenshot](https://github.com/anualabi/rest-countries-app/assets/33486765/5519e159-ed29-4918-a8cd-64911de7fc90)
+
+### Built With
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+### Features
+
+The features implemented are as follows:
+
+- User can see some information about a TV Series.
+- User can see some information about one season in the TV Series.
+- User can see a list of episodes in the season.
+- User can slide through the episodes using a carousel.
+- The website is fully-responsive.
+
+
+### How To Use
+
+This application is live at [TV Series App]()
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Clone this repository
+$ git clone []
+
+# Install dependencies
+$ npm install
+
+# Add environment variable to a .env.local file created in the root directory
+BASE_URL='https://www.omdbapi.com/'
+DATA_API_KEY=[YOUR API KEY] Go to OMDB API (http://www.omdbapi.com/) to get a free key.
+
+# Run the app
+$ npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
