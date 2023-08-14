@@ -34,7 +34,7 @@ The features implemented are as follows:
 
 ### How To Use
 
-This application is live at [TV Series App](tv-series-app-sigma.vercel.app)
+This application is live at [TV Series App](https://tv-series-app-sigma.vercel.app/)
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
