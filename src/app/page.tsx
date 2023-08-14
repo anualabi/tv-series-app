@@ -5,13 +5,15 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 import EpisodeCarousel from '@/components/EpisodeCarousel';
+import EpisodeDetails from "@/components/EpisodeDetails";
 import { SERIES_TITLE } from '@/constants';
 
-import { SeriesProps, SeasonProps } from '@/types';
+import { SeriesProps, SeasonProps, EpisodeProps } from '@/types';
 
 export default function Home() {
   const [seriesData, setSeriesData] = useState<SeriesProps>()
   const [seasonData, setSeasonData] = useState<SeasonProps>()
+  const [episodeData, setEpisodeData] = useState<EpisodeProps>()
 
   const getSeriesData = async (seriesTitle: string = SERIES_TITLE ) => {
     const response = await fetch(`/api/${seriesTitle}`)
@@ -19,6 +21,7 @@ export default function Home() {
 
     setSeriesData(data)
   }
+
   const getSeasonData = async (seasonNumber: number = 3) => {
     const response = await fetch(`/api/${SERIES_TITLE}/seasons/${seasonNumber}`)
     const data = await response.json()
@@ -26,9 +29,18 @@ export default function Home() {
     setSeasonData(data)
   }
 
+  const getEpisodeData = async (seasonNumber: number = 3, episodeNumber: number = 1) => {
+    const response = await fetch(`/api/${SERIES_TITLE}/seasons/${seasonNumber}/episodes/${episodeNumber}`)
+    const data = await response.json()
+
+    setEpisodeData(data)
+  }
+
   useEffect(() => {
     getSeriesData()
     getSeasonData()
+    getEpisodeData()
+  
   }, [])
 
 
@@ -54,7 +66,7 @@ export default function Home() {
         </div>
       </div>
       <div className="w-full lg:w-1/3 h-screen lg:h-full">
-        {/** Episode Details */}
+        {episodeData && <EpisodeDetails data={episodeData} />}
       </div>
     </main>
   )
