@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeCarousel should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="flex"
+  >
+    <div
+      class="h-full flex w-full overflow-x-hidden relative"
+    >
+      <div
+        class="inline-flex gap-4"
+      >
+        <div
+          class="overflow-hidden w-56"
+        >
+          <div
+            class="relative w-[201px] h-[134px]"
+          >
+            <img
+              alt="Better-Like image"
+              class="w-full h-full"
+              data-nimg="1"
+              decoding="async"
+              height="134"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ftest-poster1.jpg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ftest-poster1.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Ftest-poster1.jpg&w=640&q=75 2x"
+              style="color: transparent; object-fit: cover;"
+              width="201"
+            />
+            <div
+              class="absolute top-0 left-0 bg-white w-[30px] h-[30px] flex items-center justify-center"
+            >
+              <p
+                class="text-sm font-bold text-black"
+              >
+                5
+              </p>
+            </div>
+          </div>
+          <div
+            class="py-4 bg-opacity-50 relative w-[201px] h-[138px]"
+          >
+            <h2
+              class="text-sm md:text-base  text-white font-bold mb-2 line-clamp-1"
+            >
+              Better-Like
+            </h2>
+            <p
+              class="text-xs md:text-sm text-white font-light line-clamp-3"
+            >
+              This is a sample plot for testing purposes.
+            </p>
+          </div>
+        </div>
+        <div
+          class="overflow-hidden w-56"
+        >
+          <div
+            class="relative w-[201px] h-[134px]"
+          >
+            <img
+              alt="Familiar-Like image"
+              class="w-full h-full"
+              data-nimg="1"
+              decoding="async"
+              height="134"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Ftest-poster2.jpg&w=640&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Ftest-poster2.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Ftest-poster2.jpg&w=640&q=75 2x"
+              style="color: transparent; object-fit: cover;"
+              width="201"
+            />
+            <div
+              class="absolute top-0 left-0 bg-white w-[30px] h-[30px] flex items-center justify-center"
+            >
+              <p
+                class="text-sm font-bold text-black"
+              >
+                6
+              </p>
+            </div>
+          </div>
+          <div
+            class="py-4 bg-opacity-50 relative w-[201px] h-[138px]"
+          >
+            <h2
+              class="text-sm md:text-base  text-white font-bold mb-2 line-clamp-1"
+            >
+              Familiar-Like
+            </h2>
+            <p
+              class="text-xs md:text-sm text-white font-light line-clamp-3"
+            >
+              This is a sample plot for testing purposes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-0 right-3 hidden md:block"
+      >
+        <button
+          class="mx-2 text-white focus:outline-none opacity-50 cursor-not-allowed"
+          data-testid="left-arrow"
+          disabled=""
+          tabindex="0"
+        >
+          <svg
+            height="19.414"
+            viewBox="0 0 28.707 19.414"
+            width="28.707"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="tail-left"
+              transform="translate(29.207 19.207) rotate(-180)"
+            >
+              <path
+                d="M0,0H28"
+                fill="none"
+                id="Shape"
+                stroke="#fff"
+                stroke-miterlimit="10"
+                stroke-width="1"
+                transform="translate(0.5 9.5)"
+              />
+              <path
+                d="M0,0,9,9,0,18"
+                data-name="Shape"
+                fill="none"
+                id="Shape-2"
+                stroke="#fff"
+                stroke-linecap="square"
+                stroke-miterlimit="10"
+                stroke-width="1"
+                transform="translate(19.5 0.5)"
+              />
+            </g>
+          </svg>
+        </button>
+        <button
+          class="mx-2 text-white focus:outline-none "
+          data-testid="right-arrow"
+          tabindex="0"
+        >
+          <svg
+            height="19.414"
+            viewBox="0 0 28.707 19.414"
+            width="28.707"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              id="tail-right"
+              transform="translate(-0.5 0.207)"
+            >
+              <path
+                d="M0,0H28"
+                fill="none"
+                id="Shape"
+                stroke="#fff"
+                stroke-miterlimit="10"
+                stroke-width="1"
+                transform="translate(0.5 9.5)"
+              />
+              <path
+                d="M0,0,9,9,0,18"
+                data-name="Shape"
+                fill="none"
+                id="Shape-2"
+                stroke="#fff"
+                stroke-linecap="square"
+                stroke-miterlimit="10"
+                stroke-width="1"
+                transform="translate(19.5 0.5)"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

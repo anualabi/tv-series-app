@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Carousel should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="h-full flex w-full overflow-x-hidden relative"
+  >
+    <div
+      class="inline-flex gap-4"
+    >
+      <div>
+        Item 1
+      </div>
+      <div>
+        Item 2
+      </div>
+      <div>
+        Item 3
+      </div>
+    </div>
+    <div
+      class="absolute bottom-0 right-3 hidden md:block"
+    >
+      <button
+        class="mx-2 text-white focus:outline-none opacity-50 cursor-not-allowed"
+        data-testid="left-arrow"
+        disabled=""
+        tabindex="0"
+      >
+        <svg
+          height="19.414"
+          viewBox="0 0 28.707 19.414"
+          width="28.707"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="tail-left"
+            transform="translate(29.207 19.207) rotate(-180)"
+          >
+            <path
+              d="M0,0H28"
+              fill="none"
+              id="Shape"
+              stroke="#fff"
+              stroke-miterlimit="10"
+              stroke-width="1"
+              transform="translate(0.5 9.5)"
+            />
+            <path
+              d="M0,0,9,9,0,18"
+              data-name="Shape"
+              fill="none"
+              id="Shape-2"
+              stroke="#fff"
+              stroke-linecap="square"
+              stroke-miterlimit="10"
+              stroke-width="1"
+              transform="translate(19.5 0.5)"
+            />
+          </g>
+        </svg>
+      </button>
+      <button
+        class="mx-2 text-white focus:outline-none "
+        data-testid="right-arrow"
+        tabindex="0"
+      >
+        <svg
+          height="19.414"
+          viewBox="0 0 28.707 19.414"
+          width="28.707"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="tail-right"
+            transform="translate(-0.5 0.207)"
+          >
+            <path
+              d="M0,0H28"
+              fill="none"
+              id="Shape"
+              stroke="#fff"
+              stroke-miterlimit="10"
+              stroke-width="1"
+              transform="translate(0.5 9.5)"
+            />
+            <path
+              d="M0,0,9,9,0,18"
+              data-name="Shape"
+              fill="none"
+              id="Shape-2"
+              stroke="#fff"
+              stroke-linecap="square"
+              stroke-miterlimit="10"
+              stroke-width="1"
+              transform="translate(19.5 0.5)"
+            />
+          </g>
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

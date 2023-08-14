@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EpisodeCard should render snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="overflow-hidden w-56"
+  >
+    <div
+      class="relative w-[201px] h-[134px]"
+    >
+      <img
+        alt="Better-Like image"
+        class="w-full h-full"
+        data-nimg="1"
+        decoding="async"
+        height="134"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Ftest-poster.jpg&w=640&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Ftest-poster.jpg&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Ftest-poster.jpg&w=640&q=75 2x"
+        style="color: transparent; object-fit: cover;"
+        width="201"
+      />
+      <div
+        class="absolute top-0 left-0 bg-white w-[30px] h-[30px] flex items-center justify-center"
+      >
+        <p
+          class="text-sm font-bold text-black"
+        >
+          5
+        </p>
+      </div>
+    </div>
+    <div
+      class="py-4 bg-opacity-50 relative w-[201px] h-[138px]"
+    >
+      <h2
+        class="text-sm md:text-base  text-white font-bold mb-2 line-clamp-1"
+      >
+        Better-Like
+      </h2>
+      <p
+        class="text-xs md:text-sm text-white font-light line-clamp-3"
+      >
+        This is a sample plot for testing purposes.
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
