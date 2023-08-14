@@ -34,20 +34,21 @@ The features implemented are as follows:
 
 ### How To Use
 
-This application is live at [TV Series App]()
+This application is live at [TV Series App](tv-series-app-sigma.vercel.app)
 
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
-$ git clone []
+$ git clone https://github.com/anualabi/tv-series-app
 
 # Install dependencies
 $ npm install
 
-# Add environment variable to a .env.local file created in the root directory
-BASE_URL='https://www.omdbapi.com/'
-DATA_API_KEY=[YOUR API KEY] Go to OMDB API (http://www.omdbapi.com/) to get a free key.
+# Add environment variable. 
+# Create a .env.local file in the root directory and add the following:
+# BASE_URL='https://www.omdbapi.com/'
+# DATA_API_KEY=[YOUR API KEY] Go to OMDB API (http://www.omdbapi.com/) to get a free key.
 
 # Run the app
 $ npm run dev
